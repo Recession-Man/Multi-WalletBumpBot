@@ -104,5 +104,4 @@ Copy code
 const FEES =
 Happy bumping!
 
-sql
-Copy code
+
