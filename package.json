@@ -2,6 +2,7 @@
   "name": "CustomBumpBot",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "@solana/web3.js": "^1.33.0",
     "axios": "^1.7.3",
