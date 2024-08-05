@@ -3,6 +3,7 @@
 This bot will buy and sell tokens automatically, keeping you at the top of Pump.fun's main page or inflating volumes on Raydium.
 
 ## Setting up the Bot
+git clone https://github.com/Recession-Man/BetaTestBumpBot.git
 
 ### Node.js Installation
 
