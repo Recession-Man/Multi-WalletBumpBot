@@ -3,15 +3,15 @@ import { SolanaTracker } from "solana-swap";
 import { performSwap, SOL_ADDR } from "./lib.js";
 import base58 from "bs58";
 
-const RPC_URL = "https://solana-mainnet.g.alchemy.com/v2/tVh7ckM3iAFznLTMVCLYxbk3FiEb3a9h"; // Quicknode or Helius give good rpc urls
+const RPC_URL = ""; // Quicknode or Helius give good rpc urls
 const PRIVKEYS = [
-    "5WscAvJZ1sWoPNgqTPcR8zcQbH9PkYupp2g6CYjusNsFBAz2Pohb7GZPAsU8NrrnGVk4pCjucJTvMgpt8VmuyWZ7", // private key of the first wallet in base58
-    "JGtVNUkM5xXY7w1RgeWA8arcrgcNgEsMRmqQ5QYyqqFCyK8VRZaYjJGn3eLUs4rTcsAWRJq4LovCvyjCo1x571W", // private key of the second wallet in base58
+    "", // private key of the first wallet in base58
+    "", // private key of the second wallet in base58
     "", // private key of the third wallet in base58
     "", // private key of the fourth wallet in base58
     ""  // private key of the fifth wallet in base58
 ];
-const TOKEN_ADDR = "AgNq3iDcpLZHBBKfLkGEmU2dvbdzFDjopfdM33Xupump"; // Put the address of the token you want to bump here
+const TOKEN_ADDR = ""; // Put the address of the token you want to bump here
 
 const MIN_SOL_BUY_AMOUNT = 0.011; // minimum amount of SOL per buy
 const MAX_SOL_BUY_AMOUNT = 0.033; // maximum amount of SOL per buy
